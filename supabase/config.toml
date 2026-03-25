@@ -1,0 +1,20 @@
+project_id = "tcvpgsphabrqlzeqhmga"
+
+[api]
+enabled = true
+port = 54321
+
+[functions.parse-resume]
+verify_jwt = false
+
+[functions.generate-questions]
+verify_jwt = false
+
+[functions.predict-job-roles]
+verify_jwt = false
+
+[functions.search-jobs]
+verify_jwt = false
+
+[functions.fetch-notifications]
+verify_jwt = false
